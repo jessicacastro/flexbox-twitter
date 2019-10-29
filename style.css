@@ -46,7 +46,7 @@ input, button {
   align-items: center;
   font-size: 13px;
   font-weight: bold;
-  color: #8CDFD6;
+  color: #04D361;
   margin-left: 30px;
 }
 
@@ -82,7 +82,7 @@ input, button {
 
 #main-header div.options button {
   height: 34px;
-  background: #8CDFD6;
+  background: #04D361;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,5 +106,136 @@ div.banner {
   align-items: center;
   justify-content: center;
   color: #FFF;
+}
 
+div.bar {
+  height: 59px;
+  background: #000;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+div.bar .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 285px;
+  height: 100%;
+}
+
+div.bar ul {
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+}
+
+div.bar ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  position: relative;
+}
+
+div.bar ul li.active::after {
+  content: '';
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #04D361;
+}
+
+div.bar ul li span {
+  color: #667580;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.bar ul li strong {
+  color: #667580;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+div.bar ul li.active strong {
+  color: #04D361;
+}
+
+div.actions {
+  display: flex;
+}
+
+div.actions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #04D361;
+  height: 34px;
+  width: 90px;
+  color: #04D361;
+  background: transparent;
+  border-radius: 16px;
+  margin-right: 20px;
+}
+
+/**/
+div.wrapper-content {
+  display: flex;
+}
+
+div.wrapper-content aside.profile {
+  width: 260px;
+}
+
+div.wrapper-content aside.profile img.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #FFF;
+  margin-top: -130px;
+}
+
+div.wrapper-content aside.profile h1 {
+  font-size: 21px;
+  color: #1F2226;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.profile span {
+  font-size: 14px;
+  color: #53626C;
+  font-weight: lighter;
+}
+
+div.wrapper-content aside.profile p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #1F2226;
+}
+
+div.wrapper-content aside.profile ul {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+div.wrapper-content aside.profile ul li {
+  font-size: 14px;
+  font-weight: normal;
+  color: #657786;
+
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+div.wrapper-content aside.profile ul li:first-child {
+  margin: 0;
+}
+
+div.wrapper-content aside.profile ul li img {
+  margin-right: 10px;
 }
