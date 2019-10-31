@@ -265,12 +265,15 @@ div.wrapper-content aside.profile .followers ul {
 }
 
 div.wrapper-content aside.profile .followers ul li {
-  width: 45px;
-  height: 45px;
-  background: #D0D5D9;
-  border-radius: 50%;
   flex: 1 0 auto;
   margin: 0px 5px 5px 0;
+}
+
+div.wrapper-content aside.profile .followers ul li img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #F5F8FA;
 }
 
 div.wrapper-content aside.profile .images ul {
@@ -282,16 +285,107 @@ div.wrapper-content aside.profile .images ul {
 }
 
 div.wrapper-content aside.profile .images ul li {
-  width: 80px;
-  height: 80px;
-  background: #D0D5D9;
-  border-radius: 8px;
   flex: 1 0 auto;
   margin: 0px 5px 5px 0;
+  width: 80px;
+  height: 80px;
+}
+
+div.wrapper-content aside.profile .images ul li > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
 }
 
 div.wrapper-content .timeline {
   flex: 1;
+  background: #FFF;
+  margin: 10px 20px 0 20px;
+  border-radius: 5px;
+}
+
+div.wrapper-content .timeline nav {
+  border-bottom: 1px solid #E6ECF0;
+  padding: 10px 15px;
+}
+
+div.wrapper-content .timeline nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #04D361;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+div.wrapper-content .timeline nav a:first-child {
+  margin: 0;
+}
+
+div.wrapper-content .timeline nav a.active {
+  color: #1F2226;
+}
+
+div.wrapper-content .timeline ul.tweets {
+  list-style-type: none;
+}
+
+div.wrapper-content .timeline ul.tweets li {
+  border-bottom: 1px solid #E6ECF0;
+  padding: 10px 15px;
+  display: flex;
+
+}
+
+div.wrapper-content .timeline ul.tweets li > img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+div.wrapper-content .timeline ul.tweets li .info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.wrapper-content .timeline ul.tweets li .info strong {
+  font-size: 14px;
+  color: #1F2326;
+}
+
+div.wrapper-content .timeline ul.tweets li .info strong span {
+  font-size: 13px;
+  color: #7B8B9A;
+  font-weight: normal;
+}
+
+div.wrapper-content .timeline ul.tweets li .info p {
+  font-size: 14px;
+  color: #1F2326;
+  margin-top: 5px;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions {
+  display: flex;
+  margin-top: 20px;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #667580;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions a:first-child {
+  margin-left: 0;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions a img {
+  margin-right: 5px;
 }
 
 div.wrapper-content aside.widgets {
