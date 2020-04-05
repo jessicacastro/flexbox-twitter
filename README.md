@@ -28,4 +28,4 @@ Abra o terminal e entre na pasta em que deseja realiza o clone do projeto, após
 
 <p>O clone foi feito com HTML e CSS puro. Para rodar, basta abrir o index.html, clicando duas vezes no mesmo, dentro da pasta.</p>
 
-<p align="center">Feito com amor por: <a href="https://github.com/jessicacastro/">Jessica Castro</a> 💙</p>
+<p align="center">Feito com 💙 por: <a href="https://github.com/jessicacastro/">Jessica Castro</a> 👻</p>
