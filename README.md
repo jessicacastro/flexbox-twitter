@@ -4,6 +4,8 @@
  <p align="center">Clone do Twitter feito com HTML e CSS Flexbox.</p>
  
  <div>
+  [![GitHub stars](https://img.shields.io/github/stars/jessicacastro/flexbox-twitter)](https://github.com/jessicacastro/flexbox-    twitter/stargazers)
+   [![GitHub license](https://img.shields.io/github/license/jessicacastro/flexbox-twitter?style=plastic)](https://github.com/jessicacastro/flexbox-twitter/blob/master/LICENSE)
   
  </div>
 
